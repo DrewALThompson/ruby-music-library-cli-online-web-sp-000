@@ -23,5 +23,5 @@ class MusicLibraryController
     puts "What would you like to do?"
     
     case input
-      when 
+      when "list songs"
 end
