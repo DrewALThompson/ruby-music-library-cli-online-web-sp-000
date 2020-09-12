@@ -23,4 +23,8 @@
     @genre = genre
     genre.songs.include?(self) ? nil : genre.songs << self
   end
+  
+  def self.new_from_filename(filename)
+    song = filename.split(" - ")
+  end
 end 
