@@ -1,4 +1,4 @@
-class MusicControllerLibrary
+class MusicLibraryController
   
   attr_accessor :path 
   
