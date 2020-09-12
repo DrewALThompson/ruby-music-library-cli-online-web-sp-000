@@ -7,4 +7,9 @@ class MusicImporter
   end
   
   def files
+  end
+  
+  def self.import 
+  end
+
 end
