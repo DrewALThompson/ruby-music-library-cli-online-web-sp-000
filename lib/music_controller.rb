@@ -10,4 +10,5 @@ class MusicLibraryController
   def call
     
     input = gets.strip
+    if input != exit
 end
