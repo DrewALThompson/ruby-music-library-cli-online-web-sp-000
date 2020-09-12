@@ -9,5 +9,5 @@ class MusicLibraryController
   
   def call
     
-    puts
+    input = gets.strip
 end
