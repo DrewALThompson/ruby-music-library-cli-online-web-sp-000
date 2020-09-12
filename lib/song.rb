@@ -25,8 +25,9 @@
   end
   
   def self.new_from_filename(filename)
-    song.name = filename.split(" - ")[1].split(".mp3")[0]
-    artist.name = filename.split(" - ")[0]
-    genre
+    song_name = filename.split(" - ")[1].split(".mp3")[0]
+    artist_name = filename.split(" - ")[0]
+    genre_name = filename.split(" - ")[1].split(".mp3")[1]
+    
   end
 end 
