@@ -7,6 +7,7 @@ class MusicImporter
   end
   
   def files
+    Dir.entries()
   end
   
   def self.import 
